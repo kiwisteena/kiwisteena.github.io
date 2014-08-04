@@ -1,0 +1,229 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+html {
+	height: 100%;
+}
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	background: #000;
+	font-weight: 300;
+	font-size: 15px;
+	color: #FFF;
+	-webkit-font-smoothing: antialiased;
+	
+} 
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+.container {
+	width: 100%;
+	position: relative;
+}
+.container.demo-1 {
+	height: 100%;
+	position: absolute;
+}
+.clr {
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+.main {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+.container > header, .content-wrapper {
+	padding: 30px;
+	width: 80%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.content-wrapper p {
+	padding-top: 30px;
+	line-height: 26px;
+}
+.container > header h1 {
+	font-size: 34px;
+	line-height: 38px;
+	margin: 0;
+	font-weight: 700;
+	color: #333;
+	float: left;
+}
+.container > header h1 span {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+/* Header Style */
+.codrops-top {
+	line-height: 34px;
+	font-size: 11px;
+	background: #fff;
+	background: rgba(0,0,0,.8);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+.codrops-top a {
+	letter-spacing: 1px;
+	color: #F7F7F7;
+	display: inline-block;
+	height: 59px;
+}
+.codrops-top nav {
+	float: right;
+}
+.codrops-top nav a {
+	padding: 10px 15px;
+	text-align: center;
+}
+.codrops-top a:hover {
+	background: rgba(179,19,38,.8);
+	padding-bottom: 0px;
+}
+.codrops-top span.right {
+	float: right;
+}
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+
+
+/*****************************footer bottom***********************************/
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.right {
+	width: 200px;
+}
+.right li {
+	display: inline;
+	text-decoration: none;
+}
+.codrops-bottom {
+	line-height: 10px;
+	font-size: 11px;
+	background: #fff;
+	background: rgba(0,0,0,.8);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+.codrops-bottom a {
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #F7F7F7;
+	display: inline-block;
+}
+.codrops-bottom a:hover {
+	background: rgba(179,19,38,.8);
+	padding-bottom: 0px;
+}
+.codrops-bottom span.right {
+	float: right;
+}
+.codrops-bottom span.right a {
+	float: left;
+	display: block;
+}
+.codrops-bottom span.left {
+	float: left;
+ line-height:;
+}
+.codrops-bottom span.left a {
+	float: left;
+	display: block;
+}
+/************************contact page form*******************************/
+
+#inquiries {
+	float: left;
+	margin: 100px 0 0 130px;
+	width: 300px;
+}
+#inquiries p {
+	padding-top: 50px;
+}
+#inquiries h1 {
+	margin-top: -50px;
+	font-size: 450%;
+	border-bottom: 1px solid rgba(255,255,255,.3);
+}
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+p, h1, form, button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.spacer {
+	clear: both;
+	height: 1px;
+}
+/*****************Contact Form********************/
+.myform {
+	float: right;
+	width: 400px;
+	margin-top: 50px;
+}
+#stylized {
+	background: rgba(0,0,0,.5);
+	color: #FFF;
+	padding-top: 50px;
+	margin-right: 130px;
+}
+#stylized label {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
+}
+#stylized input {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	margin: 2px 0 20px 10px;
+}
+#email, #name {
+	width: 200px;
+}
+#message {
+	width: 500px;
+	height: 300px;
+}
+#stylized button {
+	clear: both;
+	margin-left: 180px;
+	width: 125px;
+	height: 31px;
+	background: rgba(179,19,38,.8) url(img/button.png) no-repeat;
+	text-align: center;
+	line-height: 31px;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+}
